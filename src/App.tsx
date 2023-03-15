@@ -135,6 +135,7 @@ function App() {
                     resources={[
                         {
                             name: "properties",
+                            options: { label: "DayCare - U" },
                             list: AllProperties,
                             show: PropertyDetails,
                             create: CreateProperty,
@@ -143,17 +144,20 @@ function App() {
                         },
                         {
                             name: "agents",
+                            options: { label: "My Profile " },
                             list: Agents,
                             show: AgentProfile,
                             icon: <PeopleAltOutlined />,
                         },
                         {
                             name: "reviews",
+                            options: { label: "My Profile " },
                             list: Home,
                             icon: <StarOutlineRounded />,
                         },
                         {
                             name: "messages",
+                            options: { label: "My Profile " },
                             list: Home,
                             icon: <ChatBubbleOutline />,
                         },
